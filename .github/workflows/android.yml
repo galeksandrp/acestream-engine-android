@@ -21,4 +21,4 @@ jobs:
       run: echo chmod +x gradlew
     - name: Build with Gradle
       run: echo ./gradlew build
-    - run: ./bootstap.sh ./build.sh
+    - run: ./bootstrap.sh ./build.sh
